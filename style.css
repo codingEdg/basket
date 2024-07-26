@@ -1,0 +1,19 @@
+*::before,
+*::after,
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.basket-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 2rem;
+}
+
+button > img {
+    width: 30px;
+    margin: 10px;
+}
